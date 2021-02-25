@@ -1,0 +1,70 @@
+$color:grey;
+$background-color:black;
+$height:40px;
+
+
+//global
+@mixin d-block () {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+
+  height: 60px;
+
+}
+
+//consumer menu
+@mixin flex () {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+
+}
+
+//info
+@mixin info-d-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 48px;
+}
+
+//info-wrapper-margin
+@mixin info-m {
+margin: 0 75px  0  75px;
+}
+
+
+
+@mixin info-d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+
+}
+
+@mixin h2-hr {
+  display: block;
+  justify-content:start;
+  font-size: 40px;
+  width: 70px;
+  margin-top: 25px;
+  border-top: 2px solid green;
+}
+
+@mixin sl-td-none {
+&:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #007bff;
+}
+}

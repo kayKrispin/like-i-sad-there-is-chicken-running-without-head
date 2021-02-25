@@ -1,0 +1,152 @@
+.estate-agents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  height: 612px;
+  padding: 90px 0;
+  justify-content: center;
+  align-items: start;
+  display: block;
+  width: 100%;
+}
+
+.agents-h2 {
+  display: block;
+  justify-content: start;
+  font-size: 40px;
+  width: 70px;
+  margin-top: 25px;
+  border-top: 2px solid green;
+  border: 0;
+  margin-top: 0;
+  width: 100%;
+  text-align: start;
+}
+
+.agents-hr {
+  display: block;
+  justify-content: start;
+  font-size: 40px;
+  width: 70px;
+  margin-top: 25px;
+  border-top: 2px solid green;
+  text-align: start;
+  margin: 25px 0 0 0;
+}
+
+.agents-wrapper {
+  display: flex;
+  max-width: 1200px;
+  margin-top: 55px;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+
+.estate-agents-wrapper {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  max-width: 1200px;
+  height: 100%;
+}
+
+.agents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  width: 33%;
+  height: 100%;
+}
+
+.slick-slider {
+  width: 50%;
+  height: 100%;
+}
+
+.slick-list {
+  width: 100%;
+  height: 100%;
+}
+
+.slick-track {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.slick-slider {
+  width: 100%;
+  height: 100%;
+}
+
+.agents-information {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+}
+
+.agents-items {
+  display: block;
+  justify-content: start;
+  text-align: start;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.agent-name {
+  font-size: 20px;
+  color: green;
+}
+
+.slick-slide img {
+  width: 100px;
+  height: 100px;
+}
+
+.agents-resume {
+  width: 100%;
+  height: 100%;
+  text-align: start;
+  justify-self: start;
+}
+
+.slider {
+  display: block;
+  justify-content: start;
+  text-align: start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.get-in-touch {
+  width: 150px;
+  height: 45px;
+  border-radius: 7px;
+  background-color: orangered;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 300ms ease-in-out;
+  border: none;
+  outline: none;
+}
+.get-in-touch:hover {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=EstateAgents.css.map */

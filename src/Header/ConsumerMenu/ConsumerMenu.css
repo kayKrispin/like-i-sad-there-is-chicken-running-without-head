@@ -1,0 +1,14 @@
+.consumer-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  justify-content: start;
+  align-items: start;
+  background-color: #243238;
+}
+
+/*# sourceMappingURL=ConsumerMenu.css.map */

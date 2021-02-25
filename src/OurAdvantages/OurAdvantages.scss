@@ -1,0 +1,61 @@
+@import "../state";
+
+.our-advantages{
+  @include flex;
+  height:568px;
+  padding: 90px 0;
+  justify-content: center;
+  align-items: start;
+  display: block;
+  background-color: #243238;
+
+}
+.articles-h2  {
+  @include h2-hr;
+  border: 0;
+  margin-top: 0;
+  width: 100%;
+  text-align: start;
+  color: #cccccc;
+
+
+}
+.articles-hr{
+  @include h2-hr;
+  text-align: start;
+  margin: 25px 0 0 0 ;
+
+}
+.articles-wrapper {
+  @include d-block;
+  max-width: 1200px;
+  margin-top: 55px;
+  display: flex;
+  height: 250px;
+  justify-content: start;
+}
+.our-advantages-wrapper {
+
+  @include d-block;
+  max-width: 1200px;
+  height: 100%;
+}
+.articles {
+  @include d-block;
+  height: 100%;
+  width: 25%;
+  text-align: start;
+}
+
+.bi-geo-alt, .bi-camera-fill, .bi-lock-fill , .bi-cash{
+  font-size: 70px;
+  color: orangered;
+}
+.various-locations {
+  font-size: 20px;
+  color: #b0bec5;
+}
+.introduce {
+  font-size: 15px;
+  color: whitesmoke;
+}
